@@ -1,10 +1,4 @@
-// import { options } from "./config";
-
-const options = {
-  enableHighAccuracy: true,
-  setTimeout: 5000,
-  maximumAge: 0,
-};
+import { options } from "./config.js";
 
 const getLocBtn = document.getElementById("getLocBtn");
 const weatherContainer = document.getElementById("weatherContainer");
