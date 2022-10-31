@@ -100,15 +100,15 @@ weatherContainer.addEventListener("click", (e) => {
 //   windModal.style.display = "none";
 // });
 
-closeModal.onclick = function (evt) {
-  if (evt.target == rainAndWindModal) {
-    rainAndWindModal.style.display = "none";
-  } else if (evt.target == rainModal) {
-    rainModal.style.display = "none";
-  } else if (evt.target == windModal) {
-    windModal.style.display = "none";
-  }
-};
+// closeModal.onclick = function (evt) {
+//   if (evt.target == rainAndWindModal) {
+//     rainAndWindModal.style.display = "none";
+//   } else if (evt.target == rainModal) {
+//     rainModal.style.display = "none";
+//   } else if (evt.target == windModal) {
+//     windModal.style.display = "none";
+//   }
+// };
 
 window.onclick = function (event) {
   if (event.target == rainAndWindModal) {
